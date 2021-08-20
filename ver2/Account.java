@@ -5,10 +5,6 @@ public class Account {
 	private double balance; //New Comment for balance
 	private String name;
 	
-	//Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
 	
 	//Second Constructor that accepts a name and balance.
 	public Account(String name, double balance) {
